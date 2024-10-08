@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Ganerator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="passContainer">
+        <div class="header">
+            <h2>Password Generator</h2>
+
+        </div>
+        <div class="display">
+            <input type="text" id="passInput" placeholder="Password" disabled>
+            <button id="copy">Copy</button>
+        </div>
+        <div class="setting">
+            <label for="" class="lengthLabel">Length</label>
+            <input type="number" id="lengthLabel" value="10" min="1" max="20" step="1">
+        </div>
+        <div class="setting">
+            <label for="" class="uppercaseLabel">Uppercase</label>
+            <input type="checkbox" id="uppercase" checked>
+        </div>
+        <div class="setting">
+            <label for="" class="lowercaseLabel">Lowercase</label>
+            <input type="checkbox" id="lowercase" checked>
+        </div>
+        <div class="setting">
+            <label for="" class="umbersLabel">Numbers</label>
+            <input type="checkbox" id="numbers" checked>
+        </div>
+        <div class="setting">
+            <label for="" class="symbolLabel">Symbol</label>
+            <input type="checkbox" id="symbol" checked>
+        </div>
+
+        <div class="generateBtn">
+            <button type="button" id="generate">Generate</button>
+            <!-- <button
+            type="button" id="dec">dec</button>
+            <button
+            type="button" id="resr">resr</button> -->
+        </div>
+
+        <!-- <h1 id="zero">0</h1> -->
+
+    </div>
+
+    <a href="http://127.0.0.1:5500/9jsWeightConvertorPro/index.html">next</a>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
