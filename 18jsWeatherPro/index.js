@@ -23,19 +23,19 @@ async function checkWeather(city) {
         document.querySelector('.wind').innerHTML = data.wind.speed + "km/h"
 
         if (data.weather[0].main == "Clouds") {
-            weatherIcon.src = "images/clouds.png"
+            weatherIcon.src = "https://res.cloudinary.com/drah9v28t/image/upload/v1728404581/clouds_hbzafj.png"
         }
         else if (data.weather[0].main == "Clear") {
-            weatherIcon.src = "images/clear.png"
+            weatherIcon.src = "https://res.cloudinary.com/drah9v28t/image/upload/v1728404581/clear_izb85b.png"
         }
         else if (data.weather[0].main == "Rain") {
-            weatherIcon.src = "images/rain.png"
+            weatherIcon.src = "https://res.cloudinary.com/drah9v28t/image/upload/v1728404582/rain_adlrtl.png"
         }
         else if (data.weather[0].main == "Drizzle") {
-            weatherIcon.src = "images/drizzle.png"
+            weatherIcon.src = "https://res.cloudinary.com/drah9v28t/image/upload/v1728404581/drizzle_xye5ov.png"
         }
         else if (data.weather[0].main == "Mist") {
-            weatherIcon.src = "images/mist.png"
+            weatherIcon.src = "https://res.cloudinary.com/drah9v28t/image/upload/v1728404581/mist_wz1no7.png"
         }
         document.querySelector(".weather").style.display = "block"
         document.querySelector(".error").style.display = "none"
